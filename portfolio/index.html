@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="estilos.css" rel="stylesheet">
-    <title>Portfólio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -19,9 +19,10 @@
         </div>
         <div id="menu">
             <ul>
-                <li><a href="">Meus serviços</a></li>
-                <li><a href="https://www.linkedin.com/in/felixluisevencio/" target="_blank">Contato</a></li>
-                <li><a href="">Portfólio</a></li>
+                <!--Âncora - leva à uma sessão da mesma página(href="#id")-->
+                <li><a href="#services">Meus serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#portfolioTitle">Portfólio</a></li>
             </ul>
         </div>
     </div>
@@ -93,6 +94,23 @@
                 <p><input placeholder="Seu e-mail" type="text" id="emailInput" name="contactEmail" required="required"></p>
                 <button type="submit">Enviar</button>
             </form>
+        </div>
+    </div>
+    <div class="container" id="portfolioTitle">
+        <div>
+            <h2 class="red">Conheça o meu</h2>
+            <h1 class="black">Portfolio</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="portfolioImg">
+            <img src="img/portfolio-1.svg">
+        </div>
+        <div class="portfolioImg">
+            <img src="img/portfolio-2.svg">
+        </div>
+        <div class="portfolioImg">
+            <img src="img/portfolio-3.svg">
         </div>
     </div>
 </body>

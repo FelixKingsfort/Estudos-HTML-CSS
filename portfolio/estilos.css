@@ -173,3 +173,15 @@ h1.black {
     text-align: center;
     color: #FFFFFF;
 }
+
+#portfolioTitle {
+    margin-top: 150px;
+}
+
+.portfolioImg img {
+    width: 100%;
+}
+
+.portfolioImg {
+    padding: 20px;
+}
